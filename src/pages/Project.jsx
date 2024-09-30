@@ -24,7 +24,7 @@ function Projects() {
     {
       title: "Note App with React Native",
       desc: "A simple mobile application that allows users to create, edit, and delete notes, enhancing productivity and organization.",
-      githubLink: "https://github.com/WindaMarito25/react-native-note-app", // Ganti dengan link yang sesuai jika sudah ada
+      githubLink: "https://github.com/WindaMarito25/react-native-note-app",
     },
   ];
 

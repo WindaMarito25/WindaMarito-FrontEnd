@@ -1,11 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Container, Row, Col, Card, Button } from "react-bootstrap"; // Import React-Bootstrap components
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // FontAwesome for icons
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCheckCircle,
   faArrowCircleDown,
-} from "@fortawesome/free-solid-svg-icons"; // Icons
+} from "@fortawesome/free-solid-svg-icons";
 
 function Skills() {
   const navigate = useNavigate();

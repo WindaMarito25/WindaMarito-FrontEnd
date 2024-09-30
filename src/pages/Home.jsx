@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container, Row, Col, Button } from "react-bootstrap"; // Import Bootstrap components
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import FontAwesome
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"; // Import brand icons
-import { faFileDownload } from "@fortawesome/free-solid-svg-icons"; // Import download icon
-import profileImage from "../assets/Profile.jpeg"; // Make sure the image path is correct
+import { Container, Row, Col, Button } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
+import profileImage from "../assets/Profile.jpeg";
 
 function Home() {
   const handleDownloadCV = () => {
-    window.open("/CV.pdf", "_blank"); // Directly access CV in the public folder
+    window.open("/CV.pdf", "_blank");
   };
 
   const handleLinkedInClick = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Container, Row, Col, Card, Button } from "react-bootstrap"; // Pastikan Button diimpor
+import { Container, Row, Col, Card, Button } from "react-bootstrap"; 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBriefcase,
@@ -29,7 +29,7 @@ function About() {
               src={profileImages}
               alt="Profile"
               className="img-fluid img-thumbnail shadow-sm border-light"
-              style={{ borderRadius: "0.5rem" }} // Sudut gambar
+              style={{ borderRadius: "0.5rem" }}
             />
           </div>
         </Col>
