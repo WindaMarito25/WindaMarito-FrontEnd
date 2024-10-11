@@ -31,7 +31,7 @@ function Footer() {
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>
               <a
-                href="https://github.com/WindaMarito25"
+                href="https://github.com/WindaMarito25/country-rank-population.git"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-dark"
