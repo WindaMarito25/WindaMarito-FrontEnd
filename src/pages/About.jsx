@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Container, Row, Col, Card, Button } from "react-bootstrap"; 
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBriefcase,
@@ -50,7 +50,7 @@ function About() {
                     Badan Kepegawaain Negara (BKN) <br /> Internship (September
                     2022 - December 2022)
                   </Card.Subtitle>
-                  <Card.Text>Front-end Dev & Web Design</Card.Text>
+                  <Card.Text>Web Design</Card.Text>
                 </Card.Body>
               </Card>
             </Col>

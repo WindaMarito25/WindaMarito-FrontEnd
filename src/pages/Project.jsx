@@ -29,7 +29,8 @@ function Projects() {
     {
       title: "Country Rank Population with React.js",
       desc: "A responsive web application displaying country population rankings, with a news section and a comparison tool for analyzing data between countries.",
-      githubLink: "https://github.com/WindaMarito25/react-native-note-app",
+      githubLink:
+        "https://github.com/WindaMarito25/country-rank-population.git",
     },
   ];
 
